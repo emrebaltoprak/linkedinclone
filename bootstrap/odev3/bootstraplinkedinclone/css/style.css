@@ -1,10 +1,11 @@
 .navbarbg {
   height: 55px;
   background-color: white;
+  
 }
 
 input.searche {
-  height: 36px;
+  height: 34px;
   max-width: 500px;
   background-color: #eef3f8;
   border: 0;
@@ -27,7 +28,7 @@ input.searche::placeholder {
   font-family: Arial, Helvetica, sans-serif;
   color: gray;
   margin-top: 5px;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .menutext:hover {
@@ -72,6 +73,7 @@ input.content::placeholder {
 
 div.card {
   border-radius: 10px;
+  overflow: scroll;
 }
 
 .header {
